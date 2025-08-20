@@ -1,0 +1,10 @@
+<img width="231" height="90" alt="1" src="https://github.com/user-attachments/assets/5fdafe75-5263-425a-a70a-26c7b9ee2828" />
+<img width="510" height="85" alt="2" src="https://github.com/user-attachments/assets/af376dd0-5030-484b-b98e-3e08f6ae6abe" />
+<img width="491" height="73" alt="3" src="https://github.com/user-attachments/assets/72d8ada4-927b-4320-a26f-b0869f55ac76" />
+<img width="666" height="111" alt="4" src="https://github.com/user-attachments/assets/260a5737-1c4a-4599-9647-dbc1d4aec58c" />
+<img width="421" height="229" alt="5" src="https://github.com/user-attachments/assets/3d5ee505-35ba-4785-bbf1-1aee31ca2a91" />
+<img width="517" height="225" alt="6" src="https://github.com/user-attachments/assets/5294885c-14dc-44c7-9f38-b18c95a8d9df" />
+<img width="478" height="238" alt="7" src="https://github.com/user-attachments/assets/20d6946d-c0c9-4276-bb39-e07d0c97dba3" />
+<img width="649" height="139" alt="Capturar" src="https://github.com/user-attachments/assets/7fe33d12-5623-4186-9f9a-50e2a5218f42" />
+<img width="605" height="125" alt="9" src="https://github.com/user-attachments/assets/ab41c546-7cf3-412f-a613-89d73a9abea5" />
+<img width="638" height="157" alt="10" src="https://github.com/user-attachments/assets/1bd3f340-d002-4261-b960-a0221837f10f" />
