@@ -1,10 +1,126 @@
-<img width="231" height="90" alt="1" src="https://github.com/user-attachments/assets/5fdafe75-5263-425a-a70a-26c7b9ee2828" />
-<img width="510" height="85" alt="2" src="https://github.com/user-attachments/assets/af376dd0-5030-484b-b98e-3e08f6ae6abe" />
-<img width="491" height="73" alt="3" src="https://github.com/user-attachments/assets/72d8ada4-927b-4320-a26f-b0869f55ac76" />
-<img width="666" height="111" alt="4" src="https://github.com/user-attachments/assets/260a5737-1c4a-4599-9647-dbc1d4aec58c" />
-<img width="421" height="229" alt="5" src="https://github.com/user-attachments/assets/3d5ee505-35ba-4785-bbf1-1aee31ca2a91" />
-<img width="517" height="225" alt="6" src="https://github.com/user-attachments/assets/5294885c-14dc-44c7-9f38-b18c95a8d9df" />
-<img width="478" height="238" alt="7" src="https://github.com/user-attachments/assets/20d6946d-c0c9-4276-bb39-e07d0c97dba3" />
-<img width="649" height="139" alt="Capturar" src="https://github.com/user-attachments/assets/7fe33d12-5623-4186-9f9a-50e2a5218f42" />
-<img width="605" height="125" alt="9" src="https://github.com/user-attachments/assets/ab41c546-7cf3-412f-a613-89d73a9abea5" />
-<img width="638" height="157" alt="10" src="https://github.com/user-attachments/assets/1bd3f340-d002-4261-b960-a0221837f10f" />
+
+
+<div align="center">
+
+#  Atividade – Migrations  
+
+</div>
+
+---
+
+<div align="center">
+
+## Criação da tabela **cadastro**  
+O código da migration define a tabela **cadastro**, com os campos: id, Nome, Endereço, Telefone e CNPJ.   
+![1](https://github.com/user-attachments/assets/b0a480c7-fd67-4b33-aef1-baf912dafed2)
+
+</div>
+
+---
+
+<div align="center">
+
+##  Execução da migration da tabela **cadastro**  
+A migration foi executada no terminal e a tabela **cadastro** foi criada com sucesso.  
+  
+![2](https://github.com/user-attachments/assets/3ff8b45e-f9c3-43fc-a552-bc4a02f4b339)
+
+</div>
+
+---
+
+<div align="center">
+
+##  Consulta no banco da tabela **cadastro**  
+Ao consultar no phpMyAdmin, a tabela **cadastro** aparece criada, mas ainda sem registros.  
+![3](https://github.com/user-attachments/assets/1bda051b-1ff9-4156-a6d2-fad76c21729f)
+
+  
+
+</div>
+
+---
+
+<div align="center">
+
+##  Criação de uma nova migration para edição da tabela **cadastro**  
+Foi criada a migration chamada **edicao_cadastro** para modificar a tabela existente.  
+![4](https://github.com/user-attachments/assets/6fe10497-716b-4f0e-9794-c66a66622f19)
+
+
+
+</div>
+
+---
+
+<div align="center">
+
+##  Alteração na tabela **cadastro**  
+Essa migration adiciona os campos **Razaosocial** e **Nomefantasia** à tabela **cadastro**.  
+
+![5](https://github.com/user-attachments/assets/458380fa-e20e-4265-abb5-2d0682628a56)
+
+</div>
+
+---
+
+<div align="center">
+
+##  Consulta no banco após a alteração  
+Ao consultar novamente, é possível ver que a tabela **cadastro** recebeu os novos campos **Razaosocial** e **Nomefantasia**.  
+ 
+![6](https://github.com/user-attachments/assets/ec578399-6e40-4a35-b323-e5c72b032d23)
+
+</div>
+
+---
+
+<div align="center">
+
+##  Criação da tabela **estoque**  
+O código da migration cria a tabela **estoque**, com os campos: id, Quantidade, Valor e id_cadastro (chave estrangeira ligada à tabela cadastro).  
+
+ 
+![7](https://github.com/user-attachments/assets/31bede4c-ed1f-4570-b511-153ab071b59b)
+
+</div>
+
+---
+
+<div align="center">
+
+##  Execução da migration da tabela **estoque**  
+A migration foi executada no terminal e a tabela **estoque** foi criada com sucesso.  
+
+![8](https://github.com/user-attachments/assets/f235bb33-e361-4ffe-83e5-741d8a828492)
+
+</div>
+
+---
+
+<div align="center">
+
+##  Consulta no banco da tabela **estoque**  
+Ao consultar no phpMyAdmin, a tabela **estoque** aparece criada, mas ainda sem registros.  
+
+![9](https://github.com/user-attachments/assets/74385870-3aad-4324-9224-742bd19f61fd)
+
+
+---
+
+##  Observação Final  
+
+Durante a execução das migrations, após a abertura de um segundo terminal para rodar os comandos, ocorreu um erro visual que fez com que as saídas aparecessem incompletas em algumas imagens.  
+
+Apesar disso, o funcionamento dos comandos ocorreu normalmente, não comprometendo a criação das tabelas e permitindo a conclusão da atividade com sucesso.  
+
+
+</div>
+
+
+
+
+
+
+
+
